@@ -1,0 +1,14 @@
+#If this is set to true, the items in the 'items' list will be able to get dropped/spawned and any other item will be blocked.
+#if this is set to false, the items in the list will be blocked from being dropped/spawned and any other item will be allowed.
+items-is-whitelist: false
+
+#What events should DropBlocker listen to?
+onItemSpawn: false #any item
+onPlayerDrop: true #items dropped by players (pressing Q)
+onEntityDeath: true #items dropped from death
+
+items:
+#- BEDROCK
+#- INK_SACK:2
+
+#The example above will block Bedrock and Cactus Green dye (which is actually Ink Sac with a data value of 2)

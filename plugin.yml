@@ -1,0 +1,11 @@
+main: me.grimreaperfloof.dropblocker.Main
+name: DropBlocker
+version: 1.0
+author: GrimReapeR
+description: Block certain items from being dropped.
+commands:
+  dbfilter:
+    description: Apply DropBlocker to all dropped items in a world or world a player is in.
+    usage: /dbfilter [player/world]
+    permission: dropblocker.filter
+    permission-message: You don't have permission to use this command.
